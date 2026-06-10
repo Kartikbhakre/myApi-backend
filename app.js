@@ -46,11 +46,8 @@ app.post('/getResponse', async (req, res) => {
 
 });
 
-// Invalid Routes
-// app.get('*', (req, res) => {
-//     res.status(404).json({
-//         message: "Route Not Found"
-//     });
-// });
+app.get('/', (req, res) => {
+  res.send('Backend is running 🚀');
+});
 
 module.exports = app;
