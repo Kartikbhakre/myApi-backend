@@ -1,0 +1,24 @@
+{
+  "name": "myapi",
+  "version": "1.0.0",
+  "description": "node.js with gemini",
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "kartik",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
